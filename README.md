@@ -10,9 +10,9 @@ Ensure that you have the latest *[gotrino-make](https://github.com/golangee/gotr
 
 ```
 # checkout
-mkdir -p ~/tmp/
-git clone https://github.com/golangee/gotrino-tutorial
-cd gotrino-tutorial
+mkdir -p ~/tmp/gotrino-tutorial
+cd ~/tmp/gotrino-tutorial
+git clone https://github.com/golangee/gotrino-tutorial .
 
 # re-generate the tutorial assets
 go generate ./...
