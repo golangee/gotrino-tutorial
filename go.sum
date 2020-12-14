@@ -1,9 +1,10 @@
 github.com/dave/jennifer v1.4.0 h1:tNJFJmLDVTLu+v05mVZ88RINa3vQqnyyWkTKWYz0CwE=
 github.com/dave/jennifer v1.4.0/go.mod h1:fIb+770HOpJ2fmN9EPPKOqm1vMGhB+TwXKMZhrIygKg=
+github.com/dave/jennifer v1.4.1 h1:XyqG6cn5RQsTj3qlWQTKlRGAyrTcsk1kUmWdZBzRjDw=
+github.com/dave/jennifer v1.4.1/go.mod h1:7jEdnm+qBcxl8PC0zyp7vxcpSRnzXSt9r39tpTVGlwA=
 github.com/golangee/dom v0.0.0-20201210093916-f81538256b51/go.mod h1:MV/9eGmwLM6eK4vQoTyai6f8eMIR1Ye9r3AqtlHU/ts=
 github.com/golangee/dom v0.0.0-20201211133703-d124107067fc h1:JfKrIMI0/I7AE/qHSkOxTTYpagnDZ8Umm3sGzKhk2oI=
 github.com/golangee/dom v0.0.0-20201211133703-d124107067fc/go.mod h1:MV/9eGmwLM6eK4vQoTyai6f8eMIR1Ye9r3AqtlHU/ts=
-github.com/golangee/forms-example v0.0.0-20200818163651-1e606eb5369e h1:+f/Y0SdgRjqxwXGTOKNYZbLNXTUYQTYsfkcOgiscBms=
 github.com/golangee/gotrino v0.0.0-20201211122155-ae8f55d446a1/go.mod h1:HAGKSdbT34dtlJtLogt9scgzohq0QYUq9yeTG6WIAbo=
 github.com/golangee/gotrino v0.0.0-20201211141124-837344def79c h1:J91AIKc5q6KVvLGLvK7p5HAE0gyo645w8GJD3axPbgA=
 github.com/golangee/gotrino v0.0.0-20201211141124-837344def79c/go.mod h1:HAGKSdbT34dtlJtLogt9scgzohq0QYUq9yeTG6WIAbo=
@@ -14,8 +15,12 @@ github.com/golangee/gotrino-tailwind v0.0.0-20201211133221-08e4bfdfc83f h1:XMXYf
 github.com/golangee/gotrino-tailwind v0.0.0-20201211133221-08e4bfdfc83f/go.mod h1:+mgOPbjNdMfO79Oa+MJj9GJKTYbv6cQK6hjr28821JY=
 github.com/golangee/i18n v0.0.0-20201120153540-30807c41fd75 h1:4aOj4mIFN516g2JVRaMq+KfjDwUx46kfADTu1+ACsaw=
 github.com/golangee/i18n v0.0.0-20201120153540-30807c41fd75/go.mod h1:U8amP7bXgybNwvk1WuoKQNhI2cCMKApvkoHNTZVBThU=
+github.com/golangee/i18n v0.0.0-20201214100216-3e76e2ab7ca4 h1:vVEuW8HFUgnT68vkEEHrnyigpIO7LQX1YKtJ4mp78gY=
+github.com/golangee/i18n v0.0.0-20201214100216-3e76e2ab7ca4/go.mod h1:XB5yUChPoI1lvexK28rc5znxyPj6lJNN2wY7zl6uN68=
 github.com/golangee/log v0.0.0-20201120150808-72a0d21fc254 h1:ygz4ZwEo9T0rwxrdPENEAXAZkvL+l46/lB8nXe2ymuo=
 github.com/golangee/log v0.0.0-20201120150808-72a0d21fc254/go.mod h1:dUiMZFHdnlIsi6KOyAj+5jT+THo32aFtAoFMTRBlwuo=
+github.com/golangee/log v0.0.0-20201214095632-610ba2dec6e5 h1:UYE411gQQIorUoIvp9BqFIBCxTwnFUa6XBjN0kjwiqY=
+github.com/golangee/log v0.0.0-20201214095632-610ba2dec6e5/go.mod h1:dUiMZFHdnlIsi6KOyAj+5jT+THo32aFtAoFMTRBlwuo=
 github.com/golangee/property v0.0.0-20201210101032-527a9915f02f/go.mod h1:Z8QLRlSe+ZuhI67xD93EUIQ2nCEGBvX9LSuVcWhK+0U=
 github.com/golangee/property v0.0.0-20201210172659-1ccebcf04a20 h1:bu6/14aOpzH3hATLIrOXPy8TQpym3CVGVizNYi6iUU8=
 github.com/golangee/property v0.0.0-20201210172659-1ccebcf04a20/go.mod h1:Z8QLRlSe+ZuhI67xD93EUIQ2nCEGBvX9LSuVcWhK+0U=
@@ -23,8 +28,12 @@ github.com/golangee/wasm-net v0.0.0-20201211134535-c97bf6180eb3 h1:cmXBdQbQbYj2J
 github.com/golangee/wasm-net v0.0.0-20201211134535-c97bf6180eb3/go.mod h1:JnmzP0ohuo9QtkP79HEyq9weA3/LUfhr728mpI5Yp/8=
 github.com/iancoleman/strcase v0.0.0-20191112232945-16388991a334 h1:VHgatEHNcBFEB7inlalqfNqw65aNkM1lGX2yt3NmbS8=
 github.com/iancoleman/strcase v0.0.0-20191112232945-16388991a334/go.mod h1:SK73tn/9oHe+/Y0h39VT4UCxmurVJkR5NA7kMEAOgSE=
+github.com/iancoleman/strcase v0.1.2 h1:gnomlvw9tnV3ITTAxzKSgTF+8kFWcU/f+TgttpXGz1U=
+github.com/iancoleman/strcase v0.1.2/go.mod h1:SK73tn/9oHe+/Y0h39VT4UCxmurVJkR5NA7kMEAOgSE=
 github.com/yuin/goldmark v1.2.1 h1:ruQGxdhGHe7FWOJPT0mKs5+pD2Xs1Bm/kdGlHO04FmM=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 golang.org/x/text v0.3.2 h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=
 golang.org/x/text v0.3.2/go.mod h1:bEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=
+golang.org/x/text v0.3.4 h1:0YWbFKbhXG/wIiuHDSKpS0Iy7FSA+u45VtBMfQcFTTc=
+golang.org/x/text v0.3.4/go.mod h1:5Zoc/QRtKVWzQhOtBMvqHzDpF6irO9z98xDceosuGiQ=
 golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
