@@ -1,0 +1,17 @@
+language: go
+go:
+  - 1.15.x
+
+addons:
+  apt:
+    packages:
+      - lftp
+
+env:
+  global:
+    - TMPDIR=/tmp
+
+
+script:
+  - make travis
+  - lftp -e "mirror -R dist ." -u $FTP_USER,$FTP_PWD www527.your-server.de
