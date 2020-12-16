@@ -14,4 +14,4 @@ env:
 
 script:
   - make travis
-  - lftp -e "mirror -R dist ." -u $FTP_USER,$FTP_PWD www527.your-server.de
+  - lftp -e "mirror -R dist ." -u $FTP_USER,$FTP_PWD gotrino.golangee.org
