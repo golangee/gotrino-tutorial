@@ -8,9 +8,13 @@ github.com/golangee/dom v0.0.0-20201211133703-d124107067fc/go.mod h1:MV/9eGmwLM6
 github.com/golangee/gotrino v0.0.0-20201211122155-ae8f55d446a1/go.mod h1:HAGKSdbT34dtlJtLogt9scgzohq0QYUq9yeTG6WIAbo=
 github.com/golangee/gotrino v0.0.0-20201211141124-837344def79c h1:J91AIKc5q6KVvLGLvK7p5HAE0gyo645w8GJD3axPbgA=
 github.com/golangee/gotrino v0.0.0-20201211141124-837344def79c/go.mod h1:HAGKSdbT34dtlJtLogt9scgzohq0QYUq9yeTG6WIAbo=
+github.com/golangee/gotrino v0.0.0-20201214095954-a6bff1fcd96e h1:QcKV1RZYXybvOygmfgfGgHkjMP1t9gwKhBtE3fM6PKk=
+github.com/golangee/gotrino v0.0.0-20201214095954-a6bff1fcd96e/go.mod h1:HAGKSdbT34dtlJtLogt9scgzohq0QYUq9yeTG6WIAbo=
 github.com/golangee/gotrino-html v0.0.0-20201211122709-a63f9f29fce5/go.mod h1:mmWXWFsZNL1XlAfC4nOJzc6VRS+orIP+nDWYn1xLdUE=
 github.com/golangee/gotrino-html v0.0.0-20201211133454-5044ff3e94fe h1:Skf78fDj9srlkWKrWlI/66mcg6vWAfhbT1mk/FWkbuo=
 github.com/golangee/gotrino-html v0.0.0-20201211133454-5044ff3e94fe/go.mod h1:mmWXWFsZNL1XlAfC4nOJzc6VRS+orIP+nDWYn1xLdUE=
+github.com/golangee/gotrino-html v0.0.0-20201216161132-a43e76302055 h1:/YyvLiDj/qFrfj/M0YEQgzrHUsp8U0VsNBoN+k6Y3OA=
+github.com/golangee/gotrino-html v0.0.0-20201216161132-a43e76302055/go.mod h1:mmWXWFsZNL1XlAfC4nOJzc6VRS+orIP+nDWYn1xLdUE=
 github.com/golangee/gotrino-tailwind v0.0.0-20201211133221-08e4bfdfc83f h1:XMXYfJhlMkj+MhOGUu9chxGGC5iKpuZMIUEKj1ZK0HA=
 github.com/golangee/gotrino-tailwind v0.0.0-20201211133221-08e4bfdfc83f/go.mod h1:+mgOPbjNdMfO79Oa+MJj9GJKTYbv6cQK6hjr28821JY=
 github.com/golangee/i18n v0.0.0-20201120153540-30807c41fd75 h1:4aOj4mIFN516g2JVRaMq+KfjDwUx46kfADTu1+ACsaw=

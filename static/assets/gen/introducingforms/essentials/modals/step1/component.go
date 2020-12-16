@@ -27,7 +27,7 @@ func (c *ContentView) Render() Node {
 			button.NewTextButton(
 				"show dialog",
 				func() {
-					log.NewLogger().Print(ecs.Msg("wut?"))
+					log.NewLogger().Println(ecs.Msg("wut?"))
 					modal.ShowAlertActions(
 						"Dialog Header",
 						"Dialog Text",

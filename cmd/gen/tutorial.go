@@ -125,7 +125,7 @@ func rewrite(a *nestor.Attachment, fname string) error {
 
 	defer src.Close()
 
-	dst, err := os.OpenFile(fname, os.O_WRONLY|os.O_CREATE, os.ModePerm)
+	dst, err := os.OpenFile(fname, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 	if err != nil {
 		return fmt.Errorf("unable to open dest file: %s", fname)
 	}

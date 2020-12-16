@@ -41,4 +41,3 @@ func FromQuery(router.Query) Renderable {
 		),
 	)
 }
-
