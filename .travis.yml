@@ -11,7 +11,8 @@ env:
   global:
     - TMPDIR=/tmp
 
-
+before_install:
+  - echo "set dns:order \"inet inet6\"" >> ~/.lftprc
 script:
   - make travis
-  - lftp -e "mirror -R dist ." -u $FTP_USER,$FTP_PWD gotrino.golangee.org
+  - lftp -e "mirror -R dist ." -u $FTP_USER,$FTP_PWD www527.your-server.de
