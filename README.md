@@ -5,7 +5,7 @@ practices of gotrino.
 
 ## Usage
 
-Either visit https://worldiety.de/??? to see it live or compile and run it on your own.
+Either visit http://gotrino.golangee.org/ to see it live or compile and run it on your own.
 Ensure that you have the latest *[gotrino-make](https://github.com/golangee/gotrino-make)* installed.
 
 ```
