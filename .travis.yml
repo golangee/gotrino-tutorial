@@ -13,8 +13,8 @@ env:
 
 before_install:
   - echo "set dns:order \"inet inet6\"" >> ~/.lftprc
-  - echo "set ftp:ssl-allow off" >> ~/.lftprc
+  - echo "set ftp:\"ssl-allow off\"" >> ~/.lftprc
 
 script:
   - make travis
-  - lftp -v -e "set ftp:ssl-allow no; mirror -R dist ." -u $FTP_USER,$FTP_PWD www527.your-server.de
+  - lftp -v -e "mirror -R dist ." -u $FTP_USER,$FTP_PWD www527.your-server.de
