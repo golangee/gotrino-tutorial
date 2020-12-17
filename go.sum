@@ -27,6 +27,8 @@ github.com/golangee/gotrino-tailwind v0.0.0-20201211133221-08e4bfdfc83f h1:XMXYf
 github.com/golangee/gotrino-tailwind v0.0.0-20201211133221-08e4bfdfc83f/go.mod h1:+mgOPbjNdMfO79Oa+MJj9GJKTYbv6cQK6hjr28821JY=
 github.com/golangee/gotrino-tailwind v0.0.0-20201217090922-b56a2e3aeb31 h1:fpnYFHIXp2mJgLLVaC/HfumN5Pn8sytcxxLeLmc1p+A=
 github.com/golangee/gotrino-tailwind v0.0.0-20201217090922-b56a2e3aeb31/go.mod h1:+mgOPbjNdMfO79Oa+MJj9GJKTYbv6cQK6hjr28821JY=
+github.com/golangee/gotrino-tailwind v0.0.0-20201217163134-461d427eddda h1:0TTEAQEDcaoWd7JBBYSgJ5CiMzshmriFOBu54TPdBHY=
+github.com/golangee/gotrino-tailwind v0.0.0-20201217163134-461d427eddda/go.mod h1:6iu3NvZXcr5PLyBWCugjOzycJWN2/kPFMabw2Mtyc04=
 github.com/golangee/i18n v0.0.0-20201120153540-30807c41fd75 h1:4aOj4mIFN516g2JVRaMq+KfjDwUx46kfADTu1+ACsaw=
 github.com/golangee/i18n v0.0.0-20201120153540-30807c41fd75/go.mod h1:U8amP7bXgybNwvk1WuoKQNhI2cCMKApvkoHNTZVBThU=
 github.com/golangee/i18n v0.0.0-20201214100216-3e76e2ab7ca4 h1:vVEuW8HFUgnT68vkEEHrnyigpIO7LQX1YKtJ4mp78gY=

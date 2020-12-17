@@ -17,4 +17,4 @@ before_install:
 
 script:
   - make travis
-  - lftp -e "mirror -R dist ." -u $FTP_USER,$FTP_PWD www527.your-server.de
+  - lftp -v -e "set ftp:ssl-allow no; mirror -R dist ." -u $FTP_USER,$FTP_PWD www527.your-server.de
