@@ -2,13 +2,13 @@ package app
 
 import (
 	"github.com/golangee/dom/router"
-	"github.com/golangee/gotrino-tutorial/forms/highlightjs"
-	"github.com/golangee/gotrino-tutorial/internal/index"
-	"github.com/golangee/gotrino-tutorial/nestor"
 	. "github.com/golangee/gotrino"
 	. "github.com/golangee/gotrino-html"
 	"github.com/golangee/gotrino-tailwind/progress"
 	"github.com/golangee/gotrino-tailwind/tabs"
+	"github.com/golangee/gotrino-tutorial/forms/highlightjs"
+	"github.com/golangee/gotrino-tutorial/internal/index"
+	"github.com/golangee/gotrino-tutorial/nestor"
 	"github.com/golangee/wasm-net/fetch"
 	"strconv"
 	"strings"
@@ -76,7 +76,7 @@ func attachmentPane(at *nestor.Attachment) Renderable {
 			IFrame(Style("width", "278px"), Style("height", "602px"), //seems to be buggy, because the iframe ignores partially the outer size
 				Src("/#"+at.File),
 			),
-
+			Div(Class("text-center"), A(Href("/#"+at.File), Target("_blank"), Text("open in new tab"))),
 		)
 	case nestor.AtImage:
 		return Img(Src(at.File))
