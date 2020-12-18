@@ -2,19 +2,11 @@ language: go
 go:
   - 1.15.x
 
-addons:
-  apt:
-    packages:
-      - lftp
 
 env:
   global:
     - TMPDIR=/tmp
 
-before_install:
-  - echo "set dns:order \"inet inet6\"" >> ~/.lftprc
-  - echo "set ftp:\"ssl-allow off\"" >> ~/.lftprc
 
 script:
   - make travis
-  - lftp -v -e "mirror -R dist ." -u $FTP_USER,$FTP_PWD www527.your-server.de
