@@ -8,7 +8,7 @@ lint:
 travis:
 	GO111MODULE=off GOPROXY=direct go get -u github.com/golangee/gotrino-make/cmd/gotrino-make
 	gotrino-make -dir=./dist build
-	gotrino-make -deploy-host=www527.your-server.de -deploy-user=$(FTP_USER) -deploy-password=$(FTP_PWD)  -deploy-src=./dist deploy-ftp
+	gotrino-make -debug -deploy-host=www527.your-server.de -deploy-user=$(FTP_USER) -deploy-password=$(FTP_PWD)  -deploy-src=./dist/www deploy-ftp
 
 run: build
 	gotrino-make serve
