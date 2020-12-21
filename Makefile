@@ -6,6 +6,8 @@ lint:
 	GOOS=js GOARCH=wasm golangci-lint run --enable-all --exclude-use-default=false --disable=paralleltest
 
 travis:
+	go list -m -json all
+	go env
 	GO111MODULE=off GOPROXY=direct go get -u github.com/golangee/gotrino-make/cmd/gotrino-make
 	gotrino-make -debug -dir=./dist build
 	gotrino-make -debug -deploy-host=www527.your-server.de -deploy-user=$(FTP_USER) -deploy-password=$(FTP_PWD)  -deploy-src=./dist/www deploy-sftp
